@@ -7,14 +7,14 @@ import { Component, OnInit, Input, ViewEncapsulation, OnChanges, SimpleChanges, 
   encapsulation: ViewEncapsulation.Emulated // None, Shadow
 })
 export class ServerElementComponent implements
-OnInit,
-OnChanges,
-DoCheck,
-AfterContentInit,
-AfterContentChecked,
-AfterViewInit,
-AfterViewChecked,
-OnDestroy {
+  OnInit,
+  OnChanges,
+  DoCheck,
+  AfterContentInit,
+  AfterContentChecked,
+  AfterViewInit,
+  AfterViewChecked,
+  OnDestroy {
   @Input('srvElement') element: {type: string, name: string, content: string};
   @Input() name: string;
 
