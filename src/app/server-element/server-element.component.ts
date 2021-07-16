@@ -20,7 +20,7 @@ import {
   selector: "app-server-element",
   templateUrl: "./server-element.component.html",
   styleUrls: ["./server-element.component.css"],
-  encapsulation: ViewEncapsulation.Emulated, // None, Shadow
+  encapsulation: ViewEncapsulation.Emulated, // None, ShadowDom
 })
 export class ServerElementComponent
   implements
